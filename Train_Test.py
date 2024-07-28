@@ -45,7 +45,7 @@ transform = transforms.Compose([
     transforms.Normalize(mean=mean, std=std),
 ])
 
-root_dir = '/home/numair/Desktop/Codes/Skin_Disease/zzzzzzzz'
+root_dir = '/img'
 
 # Create the dataset
 dataset = datasets.ImageFolder(root=root_dir, transform=transform)
