@@ -29,26 +29,6 @@ Create a new Conda environment named googlenet-env and activate it:
 conda create --name googlenet-env python=3.8
 conda activate googlenet-env
 
-
-
-
-
-# GoogLeNet Image Classification
-
-This project implements image classification using **GoogLeNet**, a deep learning model. It includes scripts for training, validation, testing, and inference on custom datasets.
-
-## Table of Contents
-
-- [Environment Setup](#environment-setup)
-- [Dataset Structure](#dataset-structure)
-- [Data Split](#data-split)
-- [Model Information](#model-information)
-- [Running the Project](#running-the-project)
-- [Results and Evaluation](#results-and-evaluation)
-- [Conclusion](#conclusion)
-
-
-
 ### Step 4: Install dependencies
 Once your Conda environment is active, install the necessary dependencies using the requirements.txt file:
 
