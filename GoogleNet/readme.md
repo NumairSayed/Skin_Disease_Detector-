@@ -21,7 +21,7 @@ We recommend using **Conda** for managing the Python environment for this projec
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-repo/googlenet-classification.git
+git clone karlo
 cd googlenet-classification
 
 
