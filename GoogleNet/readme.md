@@ -18,17 +18,12 @@ We recommend using **Conda** for managing the Python environment for this projec
 
 ### Step 1: Clone the repository
 
-First, clone this repository to your local machine:
-
-```bash
-git clone karlo
-cd googlenet-classification
 
 
-Step 2: Install Conda (if not already installed)
+### Step 2: Install Conda (if not already installed)
 If you don’t have Conda installed, download and install it
 
-Step 3: Create and activate the Conda environment
+### Step 3: Create and activate the Conda environment
 Create a new Conda environment named googlenet-env and activate it:
 
 conda create --name googlenet-env python=3.8
@@ -36,11 +31,8 @@ conda activate googlenet-env
 
 
 
-Here’s the updated README.md with detailed instructions for setting up the environment using Conda, along with all the necessary information on dataset structure, data split, GoogLeNet model details, and running the project.
 
-Updated README.md
-markdown
-Copy code
+
 # GoogLeNet Image Classification
 
 This project implements image classification using **GoogLeNet**, a deep learning model. It includes scripts for training, validation, testing, and inference on custom datasets.
@@ -55,35 +47,16 @@ This project implements image classification using **GoogLeNet**, a deep learnin
 - [Results and Evaluation](#results-and-evaluation)
 - [Conclusion](#conclusion)
 
-## Environment Setup
 
-We recommend using **Conda** for managing the Python environment for this project. Follow the steps below to set up the environment:
 
-### Step 1: Clone the repository
-
-First, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your-repo/googlenet-classification.git
-cd googlenet-classification
-Step 2: Install Conda (if not already installed)
-If you don’t have Conda installed, download and install it from Conda installation guide.
-
-Step 3: Create and activate the Conda environment
-Create a new Conda environment named googlenet-env and activate it:
-
-bash
-Copy code
-conda create --name googlenet-env python=3.8
-conda activate googlenet-env
-Step 4: Install dependencies
+### Step 4: Install dependencies
 Once your Conda environment is active, install the necessary dependencies using the requirements.txt file:
 
 pip install -r requirements.txt
 
 
 
-Dataset Structure
+### Dataset Structure
 The dataset is expected to be in ImageFolder format, where each class has its own directory containing the respective images. The structure should look like this:
 
 /img
@@ -100,7 +73,7 @@ The dataset is expected to be in ImageFolder format, where each class has its ow
 
 Each subdirectory represents a class, and the images inside the subdirectory belong to that class. Make sure that all images are properly labeled based on their directory names.
 
-Example
+#### Example
 If you have two classes, cats and dogs, the structure would look like:
 
 /img
@@ -130,7 +103,7 @@ Efficient Parameter Use: Despite its depth, GoogLeNet has fewer parameters compa
 Number of Parameters
 GoogLeNet has approximately 6.8 million parameters, significantly smaller than other deep learning models like VGGNet, which has over 138 million parameters. This makes GoogLeNet more computationally efficient while maintaining high accuracy.
 
-Running the Project
+### Running the Project
 
 Training the Model:
 python train.py
