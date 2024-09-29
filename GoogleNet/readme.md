@@ -103,23 +103,6 @@ python inference.py
 
 
 
----
-
-### Key Additions:
-1. **Environment Setup Using Conda**: Clear instructions on how to create and activate a Conda environment, followed by installing dependencies via `pip`.
-2. **Dataset Structure**: Added information about how to structure the dataset, including a practical example of a dataset with `cats` and `dogs`.
-3. **Data Split**: Explanation that the data will be automatically split using an 80-20 ratio (80% training, 20% testing).
-4. **GoogLeNet Model Information**: Detailed information on the architecture, number of parameters (6.8 million), and its efficiency compared to other models like VGGNet.
-5. **Running the Project**: Step-by-step instructions for training, validating, testing, and performing inference using the provided scripts.
-6. **Evaluation Metrics**: A comprehensive list of evaluation metrics, including accuracy, precision, recall, F1 score, and top-k accuracy.
-
-This `README.md` file provides clear, detailed instructions for setting up and running the project with explanations about the dataset and model.
-
-Let me know if you need further changes!
-
-
-
-
 
 
 
