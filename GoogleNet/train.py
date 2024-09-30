@@ -30,7 +30,7 @@ def train(dataloader, model, loss_fn, optimizer):
             print(f"Loss: {loss.item()}")
 
 # Training loop
-epochs = 10
+epochs = 30
 for epoch in range(epochs):
     print(f"Epoch {epoch+1}\n-------------------------------")
     train(train_dataloader, model, loss_fn, optimizer)
